@@ -1,5 +1,10 @@
+
 # md-img-paste.vim
 Yet simple tool to paste images into markdown files
+
+## Changes
+
+I change the invalid file name from : to - so that onedrive can sync these pictures.
 
 ## Use Case
 You are editing a markdown file and have an image on the clipboard and want to paste it into the document as the text `![](img/image1.png)`. Instead of first copying it to that directory, you want to do it with a single `<leader>p` key press in Vim. So it hooks `<leader>p`, checks if you are editing a Markdown file, saves the image from the clipboard to the location  `img/image1.png`, and inserts `![](img/image1.png)` into the file.

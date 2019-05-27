@@ -92,7 +92,7 @@ function! SaveNewFile(imgdir, tmpfile)
 endfunction
 
 function! RandomName()
-    let l:new_random = strftime("%Y-%m-%d-%H:%M")
+    let l:new_random = strftime("%Y-%m-%d-%H-%M")
     return l:new_random
 endfunction
 
